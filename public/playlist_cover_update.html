@@ -5,6 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>歌单封面上传</title>
+  <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
   <style>
     * {
       margin: 0;
@@ -314,7 +318,7 @@
           }
         }
         reader.onerror = function() {
-          reject(new Error('文件读取失败'))
+          reject(new Error('文件��取失败'))
         }
       })
     }
